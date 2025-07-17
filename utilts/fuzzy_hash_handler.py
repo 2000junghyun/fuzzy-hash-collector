@@ -53,12 +53,13 @@ def process_samples(file_type):
                     "calculated_time": datetime.utcnow().isoformat()
                 })
                 print(f"[Hashed] file name: {fname}")
-                added += 1
 
-                # 파일 이동
-                shutil.move(file_path, os.path.join(done_dir, fname))
+                os.remove(file_path)
+                added += 1
             else:
                 print(f"[WARN] Skipped due to insufficient data: {fname}")
+                
+                os.remove(file_path)
                 skipped += 1
 
     print(f"[Summary] Added: {added}, Skipped: {skipped}\n")

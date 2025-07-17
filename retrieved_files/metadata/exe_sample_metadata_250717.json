@@ -1,0 +1,204 @@
+{
+    "query_status": "ok",
+    "data": [
+        {
+            "sha256_hash": "85f086f2649868b81861c74733b629ff3b72d455c0e61bffd12a6db1c148e890",
+            "sha3_384_hash": "7fdff912c99847d6ccce63a5227b3e2a30c3721aab611c839eeff3a1c2ad5f293ebaa3dddb216684f5cc063da01e38f4",
+            "sha1_hash": "98a11a782d4abc6940fd4016b382d5ef77923674",
+            "md5_hash": "d5f97a8b12d4ef723089becffe2413da",
+            "first_seen": "2025-07-17 23:15:07",
+            "last_seen": null,
+            "file_name": "RobloxOptimizer.exe",
+            "file_size": 3266048,
+            "file_type_mime": "application/x-dosexec",
+            "file_type": "exe",
+            "reporter": "abuse_ch",
+            "anonymous": 0,
+            "signature": "QuasarRAT",
+            "imphash": "f34d5f2d4577ed6d9ceec516c1f5a744",
+            "tlsh": "T137E56A0437F85E76E16BE6B7D5B1501263F0F82AF363EB1B2581A77A1C53B4088426B7",
+            "telfhash": null,
+            "gimphash": null,
+            "magika": "pebin",
+            "ssdeep": "49152:HvDI22SsaNYfdPBldt698dBcjHyKFCloGdzTHHB72eh2NT:Hv822SsaNYfdPBldt6+dBcjHvFW",
+            "dhash_icon": null,
+            "trid": [
+                "58.7% (.EXE) Generic CIL Executable (.NET, Mono, etc.) (73123/4/13)",
+                "13.2% (.EXE) Microsoft Visual C++ compiled executable (generic) (16529/12/5)",
+                "8.4% (.EXE) Win64 Executable (generic) (10522/11/4)",
+                "5.2% (.DLL) Win32 Dynamic Link Library (generic) (6578/25/2)",
+                "4.0% (.EXE) Win16 NE executable (generic) (5038/12/1)"
+            ],
+            "tags": [
+                "exe",
+                "QuasarRAT",
+                "RAT"
+            ],
+            "intelligence": {
+                "clamav": null,
+                "downloads": "6",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "a00b0a897dedf16c911eca692e0992ce9b11eac51f1bc54fa570d9bbf44c47b9",
+            "sha3_384_hash": "7446ba4fa5584961c464daad3e3383ee489597d2e6fac38e018afcad5af1ba6d016d900e6c61fd3ec3797b89ea875417",
+            "sha1_hash": "81d644623a4e1805a0517591fb5f33d44003b258",
+            "md5_hash": "f3616638e54ab65334149a2de7ecb06a",
+            "first_seen": "2025-07-17 22:31:31",
+            "last_seen": null,
+            "file_name": "aa.exe",
+            "file_size": 42496,
+            "file_type_mime": "application/x-dosexec",
+            "file_type": "exe",
+            "reporter": "johnk3r",
+            "anonymous": 0,
+            "signature": null,
+            "imphash": "f34d5f2d4577ed6d9ceec516c1f5a744",
+            "tlsh": "T14913D0306BC53753EF7D03B18B500695C7FD5453290396EF248D619A3A1F39E8AA1292",
+            "telfhash": null,
+            "gimphash": null,
+            "magika": "pebin",
+            "ssdeep": "768:rEHc3GI7m412IFANJk7JFPS+1xT0rt4/ENlln83/DurpGP:Y83ZD2IFANsJBSQpmzdub",
+            "dhash_icon": null,
+            "trid": [
+                "71.1% (.EXE) Generic CIL Executable (.NET, Mono, etc.) (73123/4/13)",
+                "10.2% (.EXE) Win64 Executable (generic) (10522/11/4)",
+                "6.3% (.DLL) Win32 Dynamic Link Library (generic) (6578/25/2)",
+                "4.3% (.EXE) Win32 Executable (generic) (4504/4/1)",
+                "2.0% (.ICL) Windows Icons Library (generic) (2059/9)"
+            ],
+            "tags": [
+                "barrosuon-com",
+                "exe"
+            ],
+            "intelligence": {
+                "clamav": null,
+                "downloads": "12",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "91a095452f56216e6a17efd33bf468616cd7d20bc6c68f78c991bd9af45a3e89",
+            "sha3_384_hash": "71b7ca8c954711d5e09b440e5362d5dc86f2d5fa1612f2b7cacd9048a56b29365fda97d55c547528a2f9967a237083c3",
+            "sha1_hash": "c4cc1a623a5add1bbe8e911396defb5b55f845a5",
+            "md5_hash": "52b07fae0787ab49f6037d8975605a1a",
+            "first_seen": "2025-07-17 21:27:23",
+            "last_seen": "2025-07-17 22:17:07",
+            "file_name": "SecuriteInfo.com.Win64.Evo-gen.9681.26687",
+            "file_size": 29696,
+            "file_type_mime": "application/x-dosexec",
+            "file_type": "exe",
+            "reporter": "SecuriteInfoCom",
+            "anonymous": 0,
+            "signature": null,
+            "imphash": "4b2df774f65211b4962a056c4da67248",
+            "tlsh": "T1AED2D01053E14ADCF2AA0BB0372AC67B6D6BB474C7A1D35C0834315F3A74851EEB879A",
+            "telfhash": null,
+            "gimphash": null,
+            "magika": "pebin",
+            "ssdeep": "768:QLgoCUoNkomWuC4a7+9CamhL70zvLuMgzVA0p6Vs+F:QLgo8mWVCslczv50pI1F",
+            "dhash_icon": null,
+            "trid": [
+                "63.5% (.EXE) UPX compressed Win64 Executable (70117/5/12)",
+                "24.5% (.EXE) UPX compressed Win32 Executable (27066/9/6)",
+                "4.5% (.EXE) Win16 NE executable (generic) (5038/12/1)",
+                "1.8% (.ICL) Windows Icons Library (generic) (2059/9)",
+                "1.8% (.EXE) OS/2 Executable (generic) (2029/13)"
+            ],
+            "tags": [
+                "exe"
+            ],
+            "intelligence": {
+                "clamav": [
+                    "SecuriteInfo.com.Win64.Evo-gen.9681.26687.UNOFFICIAL"
+                ],
+                "downloads": "14",
+                "uploads": "2",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "84bbee0a1255aec906c1caf80c7e5872c685be84cf0de66730dc6a6e41f0dd22",
+            "sha3_384_hash": "c6f4add6e729359eccd92c75c57c803e42a7dc96934a85cfedbfdafee610267ed0e7c8f3ec6b603be4ccbd57fa61b0fb",
+            "sha1_hash": "32769627a4c8dcec1a38b9866d31db4a630181bb",
+            "md5_hash": "578962fa870c6e6c6c802ed01834415c",
+            "first_seen": "2025-07-17 21:27:22",
+            "last_seen": "2025-07-17 22:17:07",
+            "file_name": "SecuriteInfo.com.Win64.Evo-gen.12849.9980",
+            "file_size": 29696,
+            "file_type_mime": "application/x-dosexec",
+            "file_type": "exe",
+            "reporter": "SecuriteInfoCom",
+            "anonymous": 0,
+            "signature": null,
+            "imphash": "4b2df774f65211b4962a056c4da67248",
+            "tlsh": "T115D2E01053E14ADCF2EA0BB0373AC67B6D6BB474C7A5C35C0424215F3A74851EEB47AA",
+            "telfhash": null,
+            "gimphash": null,
+            "magika": "pebin",
+            "ssdeep": "768:MLgoCUoNkomWuC4a7+9CamhL70zvLuMgzVA0p66s+F:MLgo8mWVCslczv50pT1F",
+            "dhash_icon": null,
+            "trid": [
+                "63.5% (.EXE) UPX compressed Win64 Executable (70117/5/12)",
+                "24.5% (.EXE) UPX compressed Win32 Executable (27066/9/6)",
+                "4.5% (.EXE) Win16 NE executable (generic) (5038/12/1)",
+                "1.8% (.ICL) Windows Icons Library (generic) (2059/9)",
+                "1.8% (.EXE) OS/2 Executable (generic) (2029/13)"
+            ],
+            "tags": [
+                "exe"
+            ],
+            "intelligence": {
+                "clamav": [
+                    "SecuriteInfo.com.Win64.Evo-gen.12849.9980.UNOFFICIAL"
+                ],
+                "downloads": "12",
+                "uploads": "2",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "6ce4c6583382dca20160ee3ee4b26edacc2a45a67e76312a47116b8b41dfc902",
+            "sha3_384_hash": "f024a01e4d1c215f1d1fdc6039a6948e08e853022db46753773e6a053b3b50b6b35a675bd9e93bbcbec0e2786c702e45",
+            "sha1_hash": "e44575a2527f40d274052e2a8642e6a1e4c770ee",
+            "md5_hash": "056e8930fd135761f00a79545254d5b5",
+            "first_seen": "2025-07-17 21:27:21",
+            "last_seen": "2025-07-17 22:17:06",
+            "file_name": "SecuriteInfo.com.Win64.Evo-gen.13667.25881",
+            "file_size": 29696,
+            "file_type_mime": "application/x-dosexec",
+            "file_type": "exe",
+            "reporter": "SecuriteInfoCom",
+            "anonymous": 0,
+            "signature": null,
+            "imphash": "4b2df774f65211b4962a056c4da67248",
+            "tlsh": "T10FD2D01053E14ADCF2AA0BB0373AC67B6D2BB474C7A1D35C0434215B3A74851EEB879A",
+            "telfhash": null,
+            "gimphash": null,
+            "magika": "pebin",
+            "ssdeep": "768:xbLgoCUoNkomWuC4a7+9CamhL70zvLuMgzVA0p6zpbs+l:dLgo8mWVCslczv50pmb1l",
+            "dhash_icon": null,
+            "trid": [
+                "63.5% (.EXE) UPX compressed Win64 Executable (70117/5/12)",
+                "24.5% (.EXE) UPX compressed Win32 Executable (27066/9/6)",
+                "4.5% (.EXE) Win16 NE executable (generic) (5038/12/1)",
+                "1.8% (.ICL) Windows Icons Library (generic) (2059/9)",
+                "1.8% (.EXE) OS/2 Executable (generic) (2029/13)"
+            ],
+            "tags": [
+                "exe"
+            ],
+            "intelligence": {
+                "clamav": [
+                    "SecuriteInfo.com.Win64.Evo-gen.13667.25881.UNOFFICIAL"
+                ],
+                "downloads": "13",
+                "uploads": "2",
+                "mail": null
+            }
+        }
+    ]
+}

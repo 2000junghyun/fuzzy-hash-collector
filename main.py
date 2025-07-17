@@ -1,7 +1,7 @@
 from utilts.sample_collector import collect_samples
 from utilts.fuzzy_hash_handler import process_samples
 
-LIMIT = 15
+LIMIT = 5
 FILE_TYPE = "exe"
 
 def main():

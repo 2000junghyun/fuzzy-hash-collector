@@ -1,15 +1,15 @@
-# Python 캐시 파일
+# Python cache file
 __pycache__/
 *.py[cod]
 
-# 로그 파일
+# Log file
 *.log
 
-# 가상환경
+# Virtual env
 venv/
 
-# 환경 변수 파일
+# Environment variable
 .env
 
-# VS Code 설정 폴더
+# VS Code directory
 .vscode/

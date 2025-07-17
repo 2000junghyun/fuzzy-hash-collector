@@ -2,6 +2,7 @@ import os
 import csv
 import json
 import requests
+from datetime import datetime
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -38,7 +39,9 @@ def get_sha256_hashes(limit, file_type):
     }
 
     response = requests.post(API_URL, headers=headers, data=payload)
-    metadata_file = os.path.join(METADATA_DIR, f"{file_type}_sample_metadata.json")
+
+    today_str = datetime.now().strftime("%y%m%d")
+    metadata_file = os.path.join(METADATA_DIR, f"{file_type}_sample_metadata_{today_str}.json")
 
     if response.status_code == 200:
         data = response.json()
@@ -56,6 +59,7 @@ def get_sha256_hashes(limit, file_type):
     else:
         print(f"[ERROR] Status code: {response.status_code}")
     return []
+
 
 
 # Filter sha256 hashes
