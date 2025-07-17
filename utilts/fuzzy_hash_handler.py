@@ -20,7 +20,7 @@ def process_samples(file_type):
 
     existing_hashes = load_existing_hashes(hash_csv_path)
 
-    # CSV 헤더
+    # CSV Header
     fieldnames = ['sha256', 'file_name', 'file_type', 'tlsh_hash', 'calculated_time']
     file_exists = os.path.exists(hash_csv_path)
     added = 0
