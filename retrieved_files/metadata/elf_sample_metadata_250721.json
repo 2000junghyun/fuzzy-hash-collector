@@ -1,0 +1,175 @@
+{
+    "query_status": "ok",
+    "data": [
+        {
+            "sha256_hash": "4f04c3b9e4f7de142e69615954ab294e5e2906d2b9c6102854e11301f3679389",
+            "sha3_384_hash": "7b9224fac38f38548e9440aae0d5a665140ee528cc8097befab138e23cf7d01f980680d1485d2118906e61de7a91ed2a",
+            "sha1_hash": "9639f1bbde4e0ec916cd0d3743ca9c409b4157c9",
+            "md5_hash": "8823eadb49f3b6997cfd6b100f5fd9ff",
+            "first_seen": "2025-07-21 16:52:29",
+            "last_seen": null,
+            "file_name": "armv7l",
+            "file_size": 124784,
+            "file_type_mime": "application/x-executable",
+            "file_type": "elf",
+            "reporter": "abuse_ch",
+            "anonymous": 0,
+            "signature": "Mirai",
+            "imphash": null,
+            "tlsh": "T14DC3F649FD419B01D9D62AFAFE4E42897393576CE3FE71029E245F2123CAA1B0F76502",
+            "telfhash": "t1ae313041db4815dcabd595a4c2ebb2206aec32a83b023959476eb6af5010ec67029c7e",
+            "gimphash": null,
+            "magika": "elf",
+            "ssdeep": "3072:+Fgogo0rM2jCAATS5ITJ6sNym97bv2DD5KaOjpMNLmGz4Kk5N/vOdi/s:+Fgogo0rM2juTSeV6sNLbvklKaOjpMN8",
+            "dhash_icon": null,
+            "trid": null,
+            "tags": [
+                "elf",
+                "mirai"
+            ],
+            "intelligence": {
+                "clamav": null,
+                "downloads": "3",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "47714c7d8ef047e40ae4883295f8fa5053d338a238de75ec3000226964535474",
+            "sha3_384_hash": "4701e7d9fa91d673ea61820cf9839d10a6856fc1bba86a781e169b66fd07dc647984cead1e9873410693538f77db4be9",
+            "sha1_hash": "9b244e4574660e17102786edd612ec03a54e7771",
+            "md5_hash": "cab06346c1d7a56f9477b008429dd2d4",
+            "first_seen": "2025-07-21 16:49:15",
+            "last_seen": null,
+            "file_name": "arm",
+            "file_size": 50532,
+            "file_type_mime": "application/x-executable",
+            "file_type": "elf",
+            "reporter": "abuse_ch",
+            "anonymous": 0,
+            "signature": null,
+            "imphash": null,
+            "tlsh": "T1DE334A95F9829603C6C14577FB1E438D7B270378E2FA3203AE266F2137979260F6B951",
+            "telfhash": null,
+            "gimphash": null,
+            "magika": "elf",
+            "ssdeep": "768:1mnpbjdOl6gjJvaGM+5eMvMmGhJALjOAMn0no5oPovhyVEuwxTyvTMIO:whjdG6gNmm2uLjOATNPo8UmvTM",
+            "dhash_icon": null,
+            "trid": [
+                "50.1% (.) ELF Executable and Linkable format (Linux) (4022/12)",
+                "49.8% (.O) ELF Executable and Linkable format (generic) (4000/1)"
+            ],
+            "tags": [
+                "elf"
+            ],
+            "intelligence": {
+                "clamav": null,
+                "downloads": "3",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "260683fabee22977a34198ab439a9bf31230a0542505b87d82bdb9dd07608f5a",
+            "sha3_384_hash": "60c33b35f2e2f17f9b2388cbf47daf2a733883ce90b037cc3ece5dbaf0693090dd75ad3b677044b6a1185a19b9a88a42",
+            "sha1_hash": "ec0d8edec8ecf0259e183a0c7f7f2a3758451a7b",
+            "md5_hash": "e508585f435cff2c6ce1bbe610d7953d",
+            "first_seen": "2025-07-21 16:46:17",
+            "last_seen": null,
+            "file_name": "x-3.2-.Sakura",
+            "file_size": 208645,
+            "file_type_mime": "application/x-executable",
+            "file_type": "elf",
+            "reporter": "abuse_ch",
+            "anonymous": 0,
+            "signature": "Gafgyt",
+            "imphash": null,
+            "tlsh": "T1A8143B14E703C6F7CC430AB2119FD6EF1621763A4A22DD5BF7583DBCA7259C42206BA5",
+            "telfhash": "t11d51b865dab68e396ba389a4dd7d4ff1016b521272723d30ef39c084947b00a7928d8f",
+            "gimphash": null,
+            "magika": "elf",
+            "ssdeep": "6144:A34YSBPAa5nJ3MViN5COyGOnZuQTSYF399OMpGBhotB:AKVJ3l5MuQTSYF399OMpGBhotB",
+            "dhash_icon": null,
+            "trid": [
+                "50.1% (.) ELF Executable and Linkable format (Linux) (4022/12)",
+                "49.8% (.O) ELF Executable and Linkable format (generic) (4000/1)"
+            ],
+            "tags": [
+                "elf",
+                "gafgyt"
+            ],
+            "intelligence": {
+                "clamav": null,
+                "downloads": "2",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "340143b42f33e2fa413248b96cda656857a5797281aeaa1e26523dede24f2616",
+            "sha3_384_hash": "40e806e9a0dcea59d19fecce17c83ba1c41926b9e971a9202821153b386ba5120f613e3d2b7c8603177ddc52e4904609",
+            "sha1_hash": "0552bb95ae195efe181efd590d2f72f37cad693a",
+            "md5_hash": "891e3b991b604067bc08246d4ed4af1b",
+            "first_seen": "2025-07-21 16:43:11",
+            "last_seen": null,
+            "file_name": "arm7",
+            "file_size": 127326,
+            "file_type_mime": "application/x-executable",
+            "file_type": "elf",
+            "reporter": "abuse_ch",
+            "anonymous": 0,
+            "signature": "Mirai",
+            "imphash": null,
+            "tlsh": "T1D3C33B56E7818B13C0D61776BADB824133239B6497EB33065928BFF43F8379A4F62905",
+            "telfhash": "t1a011cc82a5268216bbb29c20ed2c47f245534732238987728f2bc6cc5c2f186a971d6f",
+            "gimphash": null,
+            "magika": "elf",
+            "ssdeep": "3072:vC+amtPaFlUARF4jOn6/EcURBOjfueeM/92j8Zr:vDPaFlUARFyOnNyjfujM/9+8x",
+            "dhash_icon": null,
+            "trid": null,
+            "tags": [
+                "elf",
+                "mirai"
+            ],
+            "intelligence": {
+                "clamav": null,
+                "downloads": "5",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "de285b8521f2e85585eb8becfd7214184cc02f79850bbbb280762e4464051389",
+            "sha3_384_hash": "e3f607717d063e9cc2e2e87622c0a80da38583a3b5418d72484813896e56313fd008ae11b89ff93b32f3cd4721422e71",
+            "sha1_hash": "54c968c8a5e0890d1dff90ae53923cbb31c1c9b6",
+            "md5_hash": "5d1172bdff536f8f9feab555b5823749",
+            "first_seen": "2025-07-21 16:43:10",
+            "last_seen": null,
+            "file_name": "mips",
+            "file_size": 190380,
+            "file_type_mime": "application/x-executable",
+            "file_type": "elf",
+            "reporter": "abuse_ch",
+            "anonymous": 0,
+            "signature": "Mirai",
+            "imphash": null,
+            "tlsh": "T11014965E6E228F7EF278C73047B78A34975D33D627E1D684E2ACD1045E2424E641FBA8",
+            "telfhash": "t1a84163180e7817f497795c5d459dff7696a330db3e262c238e10f86b9b699828d20c1c",
+            "gimphash": null,
+            "magika": "elf",
+            "ssdeep": "3072:PJ8+85Eqv8+XGkuTWnfD0aXVtGEUJ9hajSq:PYEkc6nr1VTUJujP",
+            "dhash_icon": null,
+            "trid": null,
+            "tags": [
+                "elf",
+                "mirai"
+            ],
+            "intelligence": {
+                "clamav": null,
+                "downloads": "5",
+                "uploads": "1",
+                "mail": null
+            }
+        }
+    ]
+}

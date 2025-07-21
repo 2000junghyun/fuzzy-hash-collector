@@ -1,23 +1,32 @@
 import os
-import shutil
 import csv
 import tlsh
 from datetime import datetime
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 SAMPLES_DIR = os.path.join(BASE_DIR, "retrieved_files", "samples")
-COMPLETED_DIR = os.path.join(BASE_DIR, "retrieved_files", "completed")
 FUZZY_HASH_DIR = os.path.join(BASE_DIR, "retrieved_files", "fuzzy_hash")
 
 
 # Main handler
 def process_samples(file_type):
     sample_dir = os.path.join(SAMPLES_DIR, f"{file_type}_samples")
-    done_dir = os.path.join(COMPLETED_DIR, f"{file_type}_samples")
     hash_csv_path = os.path.join(FUZZY_HASH_DIR, f"{file_type}_fuzzy_hash.csv")
 
-    ensure_dirs(sample_dir, done_dir, FUZZY_HASH_DIR)
+    ensure_dirs(sample_dir, FUZZY_HASH_DIR)
 
+    # Fuzzy hash 처리
+    process_tlsh_hash(hash_csv_path, sample_dir, file_type)
+
+
+# Create directories
+def ensure_dirs(*dirs):
+    for d in dirs:
+        os.makedirs(d, exist_ok=True)
+
+
+# Process fuzzy hash
+def process_tlsh_hash(hash_csv_path, sample_dir, file_type):
     existing_hashes = load_existing_hashes(hash_csv_path)
 
     # CSV Header
@@ -63,12 +72,6 @@ def process_samples(file_type):
                 skipped += 1
 
     print(f"[Summary] Added: {added}, Skipped: {skipped}\n")
-
-
-# Create directories
-def ensure_dirs(*dirs):
-    for d in dirs:
-        os.makedirs(d, exist_ok=True)
 
 
 # Load existing hashes

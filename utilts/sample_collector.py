@@ -11,7 +11,7 @@ API_URL = "https://mb-api.abuse.ch/api/v1/"
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 METADATA_DIR = os.path.join(BASE_DIR, "retrieved_files", "metadata")
-SAMPLES_DIR = os.path.join(BASE_DIR, "retrieved_files", "samples")
+SAMPLES_DIR = os.path.join(BASE_DIR, "retrieved_files", "zip_samples")
 FUZZY_HASH_DIR = os.path.join(BASE_DIR, "retrieved_files", "fuzzy_hash")
 
 
@@ -93,9 +93,9 @@ def download_samples(sha256, file_type):
         "sha256_hash": sha256
     }
 
-    download_dir = os.path.join(SAMPLES_DIR, f"{file_type}_samples")
+    download_dir = os.path.join(SAMPLES_DIR, f"zipped_{file_type}_samples")
     os.makedirs(download_dir, exist_ok=True)
-    file_path = os.path.join(download_dir, f"{sha256}.{file_type}")
+    file_path = os.path.join(download_dir, f"{sha256}.zip")
 
     response = requests.post(API_URL, headers=headers, data=payload)
     if response.status_code == 200:

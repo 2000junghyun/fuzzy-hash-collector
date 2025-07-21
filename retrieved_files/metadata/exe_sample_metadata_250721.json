@@ -1,0 +1,199 @@
+{
+    "query_status": "ok",
+    "data": [
+        {
+            "sha256_hash": "1f3c77c33691626963a381711d31b2479d0aed92508e3f89a7ce88eeae49a522",
+            "sha3_384_hash": "0b0a68bf2446d2f47346f8bfc31e142c0168bb5145dbc73b69825ac5fbeb3dd6092b9c095c607bc642e214e330ac5f0a",
+            "sha1_hash": "ad262d25be6b5b6db3a62651092cfc117da2b28b",
+            "md5_hash": "047f5b1edee767388daca5dd91795939",
+            "first_seen": "2025-07-21 17:00:26",
+            "last_seen": null,
+            "file_name": "AsustrapperBtsr.exe",
+            "file_size": 1059173,
+            "file_type_mime": "application/x-dosexec",
+            "file_type": "exe",
+            "reporter": "burger",
+            "anonymous": 0,
+            "signature": null,
+            "imphash": "46ce5c12b293febbeb513b196aa7f843",
+            "tlsh": "T13E35235532D44466DC2CD9B3C82F1B3AB9E9878831F8974B2B252E54D9C41AD6C3C3EB",
+            "telfhash": null,
+            "gimphash": null,
+            "magika": "pebin",
+            "ssdeep": "24576:G404dQP3VV6mbdYHzETvyRvyMzafLmCZsI1F:vEvVVlbdDpLmCSI1F",
+            "dhash_icon": "0000010616050000",
+            "trid": [
+                "47.3% (.EXE) Win32 Executable MS Visual C++ (generic) (31206/45/13)",
+                "15.9% (.EXE) Win64 Executable (generic) (10522/11/4)",
+                "9.9% (.DLL) Win32 Dynamic Link Library (generic) (6578/25/2)",
+                "7.6% (.EXE) Win16 NE executable (generic) (5038/12/1)",
+                "6.8% (.EXE) Win32 Executable (generic) (4504/4/1)"
+            ],
+            "tags": [
+                "exe",
+                "LummaStealer"
+            ],
+            "intelligence": {
+                "clamav": null,
+                "downloads": "5",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "1dd4e49b7c3099c66edbb99d4d44ef594998908bde9b131df77b750aa72ea1b7",
+            "sha3_384_hash": "ea5de7c604ca8c8b83349c8ac0e36215536f567ebfb862dc18cadb735d4e539327d9541a567c01c8d88cd305e4f84af7",
+            "sha1_hash": "fef0d9611f81f7079dfd80d7868657bf91bbe95f",
+            "md5_hash": "4d8fff1d87eca49e0b497828d7095e09",
+            "first_seen": "2025-07-21 16:55:19",
+            "last_seen": null,
+            "file_name": "4D8FFF1D87ECA49E0B497828D7095E09.exe",
+            "file_size": 947712,
+            "file_type_mime": "application/x-dosexec",
+            "file_type": "exe",
+            "reporter": "abuse_ch",
+            "anonymous": 0,
+            "signature": "DCRat",
+            "imphash": "f34d5f2d4577ed6d9ceec516c1f5a744",
+            "tlsh": "T1171519027E44CF52F0191233C2EF454887B0A9516AA6E72B7DBA377E55123973C0DAEB",
+            "telfhash": null,
+            "gimphash": null,
+            "magika": "pebin",
+            "ssdeep": "12288:u16GGQ05gnk9WSmrEMruh621N05uyu1YTY93/rsUao0mFoqbz7KXC:HGGQ0enkGoMru8u1YTY93/Xao91V",
+            "dhash_icon": null,
+            "trid": [
+                "51.8% (.EXE) Generic CIL Executable (.NET, Mono, etc.) (73123/4/13)",
+                "22.1% (.EXE) Win32 Executable MS Visual C++ (generic) (31206/45/13)",
+                "7.4% (.EXE) Win64 Executable (generic) (10522/11/4)",
+                "4.6% (.DLL) Win32 Dynamic Link Library (generic) (6578/25/2)",
+                "3.5% (.EXE) Win16 NE executable (generic) (5038/12/1)"
+            ],
+            "tags": [
+                "DCRat",
+                "exe",
+                "RAT"
+            ],
+            "intelligence": {
+                "clamav": null,
+                "downloads": "8",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "5e4a8146d3db3fbc22f60e7fb488dfe081683acba32abbf5a22779b606322a26",
+            "sha3_384_hash": "711b181dbe05196d04fc5c275ced2b869d8646fe7d881dca616b0ead48d45c7261cedae0874a6f052db18d12aa4eda29",
+            "sha1_hash": "579365d21f074652451bce44b55a69f4e1b1268d",
+            "md5_hash": "4e30e76bf126423349df8b24c5fcb6bc",
+            "first_seen": "2025-07-21 16:55:10",
+            "last_seen": null,
+            "file_name": "4E30E76BF126423349DF8B24C5FCB6BC.exe",
+            "file_size": 97792,
+            "file_type_mime": "application/x-dosexec",
+            "file_type": "exe",
+            "reporter": "abuse_ch",
+            "anonymous": 0,
+            "signature": "RedLineStealer",
+            "imphash": "f34d5f2d4577ed6d9ceec516c1f5a744",
+            "tlsh": "T1C0A35D20679C9F19EAFD1B74B4B2012043F1E08A9091FB4B4DC164E71FA7B866957EF2",
+            "telfhash": null,
+            "gimphash": null,
+            "magika": "pebin",
+            "ssdeep": "1536:xqskjlqzWlbG6jejoigIr43Ywzi0Zb78ivombfexv0ujXyyed2s3teulgS6pk:fYUeYr+zi0ZbYe1g0ujyzdyk",
+            "dhash_icon": null,
+            "trid": [
+                "67.7% (.EXE) Generic CIL Executable (.NET, Mono, etc.) (73123/4/13)",
+                "9.7% (.EXE) Win64 Executable (generic) (10522/11/4)",
+                "6.0% (.DLL) Win32 Dynamic Link Library (generic) (6578/25/2)",
+                "4.6% (.EXE) Win16 NE executable (generic) (5038/12/1)",
+                "4.1% (.EXE) Win32 Executable (generic) (4504/4/1)"
+            ],
+            "tags": [
+                "exe",
+                "RedLineStealer"
+            ],
+            "intelligence": {
+                "clamav": null,
+                "downloads": "6",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "ad4df581bd3f56d935835df8d34a4d8b80806e3b1a4346beb021af3be7873e4f",
+            "sha3_384_hash": "c7cf281449a8ba3eef959454be3a247fbba90ca685bfca12f9efa34478bcac73d05a04ae708a4f950f8bc843d395ea37",
+            "sha1_hash": "4d7b302df9316c2f0a0157bd80abe3f9948fed2a",
+            "md5_hash": "eb489c23d293f96649ce799060596221",
+            "first_seen": "2025-07-21 16:48:05",
+            "last_seen": null,
+            "file_name": "China.exe",
+            "file_size": 70144,
+            "file_type_mime": "application/x-dosexec",
+            "file_type": "exe",
+            "reporter": "anonymous",
+            "anonymous": 1,
+            "signature": null,
+            "imphash": "f34d5f2d4577ed6d9ceec516c1f5a744",
+            "tlsh": "T15563708235B22239DF96C4379952C8B68D3A7F62173EC53D68A2FE3A25F07547846D30",
+            "telfhash": null,
+            "gimphash": null,
+            "magika": "pebin",
+            "ssdeep": "1536:Ol1v1bNLsZ8ChiH0hLP+VVVVVVVVVVVVVVVVVVVVVVVVVSve:Ol1tbNLsCbH0hLN",
+            "dhash_icon": "1c5d611f0f33334d",
+            "trid": [
+                "71.1% (.EXE) Generic CIL Executable (.NET, Mono, etc.) (73123/4/13)",
+                "10.2% (.EXE) Win64 Executable (generic) (10522/11/4)",
+                "6.3% (.DLL) Win32 Dynamic Link Library (generic) (6578/25/2)",
+                "4.3% (.EXE) Win32 Executable (generic) (4504/4/1)",
+                "2.0% (.ICL) Windows Icons Library (generic) (2059/9)"
+            ],
+            "tags": [
+                "exe"
+            ],
+            "intelligence": {
+                "clamav": null,
+                "downloads": "9",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "89b5724cc6f47227d806e6383d1da6534f28e1d3be5a914c89d3fe2689c6a1f8",
+            "sha3_384_hash": "ca156ebeff867a7de786543094b39269946155e5f1e174cab781534e3d898bb50446495a42f262673bcb6e0caefc06cc",
+            "sha1_hash": "45b660f2686500978b42c20f4a435150edfbcef8",
+            "md5_hash": "4a3973e364e29c417b3aadba6cbd16af",
+            "first_seen": "2025-07-21 16:47:54",
+            "last_seen": null,
+            "file_name": "NEW ORDER P24002603.exe",
+            "file_size": 989704,
+            "file_type_mime": "application/x-dosexec",
+            "file_type": "exe",
+            "reporter": "threatcat_ch",
+            "anonymous": 0,
+            "signature": null,
+            "imphash": "f34d5f2d4577ed6d9ceec516c1f5a744",
+            "tlsh": "T1D32523507304DD12ED999FB845E0E77102B1AE88F513F3174CEAACAB7DD2B917E1428A",
+            "telfhash": null,
+            "gimphash": null,
+            "magika": "pebin",
+            "ssdeep": "24576:F5gGF9RJdh8ktYe/qCYWMXJzAyxFPZpETsQh6o6fEEnyNo:FdnRJdh8kfSCYWMZMyxFzbsozyNo",
+            "dhash_icon": null,
+            "trid": [
+                "67.7% (.EXE) Generic CIL Executable (.NET, Mono, etc.) (73123/4/13)",
+                "9.7% (.EXE) Win64 Executable (generic) (10522/11/4)",
+                "6.0% (.DLL) Win32 Dynamic Link Library (generic) (6578/25/2)",
+                "4.6% (.EXE) Win16 NE executable (generic) (5038/12/1)",
+                "4.1% (.EXE) Win32 Executable (generic) (4504/4/1)"
+            ],
+            "tags": [
+                "exe"
+            ],
+            "intelligence": {
+                "clamav": null,
+                "downloads": "13",
+                "uploads": "1",
+                "mail": null
+            }
+        }
+    ]
+}
