@@ -60,15 +60,6 @@ def save_metadata_json(file_type, today_str, data):
     metadata_dir = os.path.join(METADATA_DIR, f"{file_type}_metadata")
     metadata_file = os.path.join(metadata_dir, f"{file_type}_sample_metadata_{today_str}.json")
 
-    if os.path.exists(metadata_file):
-        try:
-            with open(metadata_file, "r", encoding="utf-8") as f:
-                existing_data = json.load(f)
-                if isinstance(existing_data.get("data"), list):
-                    data["data"] = existing_data["data"] + data.get("data", [])
-        except Exception as e:
-            print(f"[WARN] Failed to load existing metadata, overwriting: {e}")
-
     with open(metadata_file, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
     print(f"[+] Metadata saved to {metadata_file}")

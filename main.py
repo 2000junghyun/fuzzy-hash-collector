@@ -2,7 +2,7 @@ from utilts.sample_collector import collect_samples
 from utilts.extract_zip_handler import extract_zipped_samples
 from utilts.fuzzy_hash_handler import process_samples
 
-LIMIT = 5
+LIMIT = 2
 FILE_TYPE = "elf"
 
 def main():
