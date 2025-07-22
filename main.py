@@ -7,13 +7,13 @@ FILE_TYPE = "elf"
 
 def main():
     # Collect sample files
-    # collect_samples(limit=LIMIT, file_type=FILE_TYPE)
+    collect_samples(limit=LIMIT, file_type=FILE_TYPE)
 
     # Extract sample files
     extract_zipped_samples(file_type=FILE_TYPE)
 
     # Calculate fuzzy hash with sample files
-    # process_samples(file_type=FILE_TYPE)
+    process_samples(file_type=FILE_TYPE)
 
 if __name__ == "__main__":
     main()

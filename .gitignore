@@ -13,3 +13,7 @@ venv/
 
 # VS Code directory
 .vscode/
+
+# Test file
+samples/
+zip_samples/

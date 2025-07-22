@@ -30,10 +30,10 @@ def process_tlsh_hash(hash_csv_path, sample_dir, file_type):
     existing_hashes = load_existing_hashes(hash_csv_path)
 
     # CSV Header
-    fieldnames = ['sha256', 'file_name', 'file_type', 'tlsh_hash', 'calculated_time']
+    fieldnames = ['sha256', 'file_type', 'tlsh_hash', 'calculated_time']
     file_exists = os.path.exists(hash_csv_path)
-    added = 0
-    skipped = 0
+    hashed_count = 0
+    skipped_count = 0
 
     with open(hash_csv_path, "a", newline='') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
@@ -42,36 +42,36 @@ def process_tlsh_hash(hash_csv_path, sample_dir, file_type):
 
         for fname in os.listdir(sample_dir):
             if not fname.endswith(f".{file_type}"):
-                continue
-
-            sha256 = fname.replace(f".{file_type}", "")
-            if sha256 in existing_hashes:
-                print(f"[SKIP] Already hashed: {sha256}")
-                skipped += 1
+                print(f"[Skipped] File type does not match: file_type={file_type}, fname={fname}")
                 continue
 
             file_path = os.path.join(sample_dir, fname)
-            fuzzy_hash = calculate_tlsh_hash(file_path)
+            sha256 = fname.replace(f".{file_type}", "")
 
+            # Already exist or file type mismatch
+            if sha256 in existing_hashes:
+                print(f"[Skipped] Already hashed: {sha256}")
+                skipped_count += 1
+                os.remove(file_path)
+                continue
+
+            # Calculate fuzzy hash
+            fuzzy_hash = calculate_tlsh_hash(file_path)
             if fuzzy_hash:
                 writer.writerow({
                     "sha256": sha256,
-                    "file_name": fname,
                     "file_type": file_type,
                     "tlsh_hash": fuzzy_hash,
                     "calculated_time": datetime.utcnow().isoformat()
                 })
                 print(f"[Hashed] file name: {fname}")
-
                 os.remove(file_path)
-                added += 1
+                hashed_count += 1
             else:
                 print(f"[WARN] Skipped due to insufficient data: {fname}")
-                
                 os.remove(file_path)
-                skipped += 1
-
-    print(f"[Summary] Added: {added}, Skipped: {skipped}\n")
+                skipped_count += 1
+    print(f"[Summary] Hashed: {hashed_count}, Skipped: {skipped_count}\n")
 
 
 # Load existing hashes
