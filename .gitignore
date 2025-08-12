@@ -17,3 +17,5 @@ venv/
 # Test file
 samples/
 zip_samples/
+tree.py
+test.*
